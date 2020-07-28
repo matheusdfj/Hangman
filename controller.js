@@ -1,10 +1,15 @@
 //VARIABLES
 
-let Word1 = ['H','A','M','B','U','R','G','O'];
+let Word1 = ['H','A','M','B','U','R','G'];
 let Word2 = ['P','A','R','I','S'];
-let Word3 = ['C','A','L','I','F','O','R','N','I','A'];
-let Word4 = ['B','E','R','L','I','M'];
-let Word5 = ['P','E','Q','U','I','M'];
+let Word3 = ['B','A','R','C','E','L','O','N','A'];
+let Word4 = ['B','E','R','L','I','N'];
+let Word5 = ['I','S','T','A','N','B','U','L'];
+let Word6 = ['S','E','O','U','L'];
+let Word7 = ['M','I','A','M','I'];
+let Word8 = ['T','O','K','Y','O'];
+let Word9 = ['D','U','B','A','I'];
+let Word10 = ['L','O','N','D','O','N'];
 let Chances;
 let Word;
 let ingame = false;
@@ -123,7 +128,7 @@ function NewString(palavra){
 
 function RandomizeCity(){
 
-    let escolha = Math.floor((Math.random() * 5) + 1);
+    let escolha = Math.floor((Math.random() * 10) + 1);
     switch(escolha){
 
         case 1:
@@ -150,7 +155,31 @@ function RandomizeCity(){
 
         Word = Word5;
         break;
+        
+        case 6:
 
+        Word = Word6;
+        break;
+
+        case 7:
+
+        Word = Word7;
+        break;
+
+        case 8:
+
+        Word = Word8;
+        break;
+
+        case 9:
+
+        Word = Word9;
+        break;
+
+        case 10:
+
+        Word = Word10;
+        break;
 
     }
 
